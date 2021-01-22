@@ -8,7 +8,7 @@ local gameUI = {}
 
 function scene:create( event )
    local sceneGroup = self.view
-  --배경
+  
     background = display.newImageRect("Fruit/BG_Forest.png", display.comtentWidth, display.contentHeight)
    background.x, background.y = display.contentWidth/2, display.contentHeight/2
 --hp
