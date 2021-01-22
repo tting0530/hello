@@ -17,7 +17,7 @@ function scene:create( event )
 --달력
    gameUI[1]=display.newImageRect("Fruit/calendar.png", 100, 100)
    gameUI[1].x, gameUI[0].y = display.contentWidth/2, display.contentHeight/2
---환경설정
+
    gameUI[2]=display.newImageRect("Fruit/setting.png", 100, 100)
    gameUI[2].x, gameUI[0].y = display.contentWidth/2, display.contentHeight/2
 
